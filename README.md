@@ -38,5 +38,6 @@ Saat user mengklik ikon profil pada tab menu, user diarahkan ke halaman profile
 - foto profil diambil dari photoURL.
   
 Data ini diakses dari Pinia Store mengunakan variabel user dan ditampilkan.
+
 Pada halaman profil, juga terdapat tombol Logout. Ketika diklik, aplikasi memanggil fungsi logout di Pinia Store. 
 Fungsi ini melakukan sign out dari firebase, menghapus data user dari variabel user, dan mengarahkan user kembali ke halaman pertama yaitu login.
