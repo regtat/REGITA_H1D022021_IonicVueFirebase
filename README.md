@@ -19,7 +19,7 @@ Terdapat tombol Sign In With Google. Saat tombol diklik, aplikasi memanggil fung
   ![image](https://github.com/user-attachments/assets/99148031-36a7-4883-8cb3-9b36b06c4a89)
 
 - Setelah user berhasil login, aplikasi menerima id token dari google (autentikasi user)
-- id token digunakan untuk membuat kredensial  Firebase untuk validasi, menggunakan GoogleAuthProvider. Jika berhasil, firebase memberikan informasi user seperti nama dan email, yang disimpan di variabel user di dalam Pinia Store.
+- id token digunakan untuk membuat kredensial  Firebase untuk validasi, menggunakan GoogleAuthProvider. Jika berhasil, firebase memberikan informasi user seperti nama, email, dan foto profil, yang disimpan di variabel user di dalam Pinia Store.
 
 ## Berhasil Login
 Jika berhasil login, user diarahkan ke halaman Home
@@ -36,7 +36,7 @@ Saat user mengklik ikon profil pada tab menu, user diarahkan ke halaman profile
 - nama pengguna diambil dari displayName
 - email diambil dari email
 - foto profil diambil dari photoURL.
-- 
+  
 Data ini diakses dari Pinia Store mengunakan variabel user dan ditampilkan.
 Pada halaman profil, juga terdapat tombol Logout. Ketika diklik, aplikasi memanggil fungsi logout di Pinia Store. 
 Fungsi ini melakukan sign out dari firebase, menghapus data user dari variabel user, dan mengarahkan user kembali ke halaman pertama yaitu login.
