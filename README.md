@@ -94,9 +94,18 @@ Data ini diakses dari Pinia Store mengunakan variabel user dan ditampilkan.
 Pada halaman profil, juga terdapat tombol Logout. Ketika diklik, aplikasi memanggil fungsi logout di Pinia Store. 
 Fungsi ini melakukan sign out dari firebase, menghapus data user dari variabel user, dan mengarahkan user kembali ke halaman pertama yaitu login.
 
+
 # BUILD APK
 
-![build-successful](image-31.png)
+buka cmd. jalankan 'ionic build'
 
-Pada halaman profil, juga terdapat tombol Logout. Ketika diklik, aplikasi memanggil fungsi logout di Pinia Store. 
-Fungsi ini melakukan sign out dari firebase, menghapus data user dari variabel user, dan mengarahkan user kembali ke halaman pertama yaitu login.
+![Screenshot 2024-11-26 222953](https://github.com/user-attachments/assets/0e17b6cb-189e-4f7b-b4ea-9e0ee432668d)
+
+Setelah selesai, Android Studio akan otomatis terbuka. Build APK, dengan cara memilih:
+
+![Screenshot 2024-11-26 223557](https://github.com/user-attachments/assets/f2d45f3c-aecc-445c-be3d-1221fa443907)
+
+Buils Successful:
+
+![Screenshot 2024-11-26 225615](https://github.com/user-attachments/assets/50e7e960-0aaf-4c62-a732-e3c14bbc37ad)
+
