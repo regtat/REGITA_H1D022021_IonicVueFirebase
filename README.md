@@ -56,6 +56,7 @@ Jika button edit diklik,  fungsi handleEdit(todo) dipanggil. Fungsi ini menerima
 ![edit](image-25.png)
 
 Jika button "EDIT TODO" diklik, maka data baru dikirim ke database Firebase. Timestamp diperbarui, lalu status berubah menjadi "less than minute ago" (menggunakan library timeago.js untuk mengatur format waktu dinamis). Jika berhasil mengubah data, maka user akan diarahkan ke halaman home. Lalu, alert 'berhasil' muncul seperti gambar di bawah ini.
+
 ![berhasil-edit](image-26.png)
 
 Jika ikon checklist diklik, maka artinya todo berhasil diselesaikan. Status catatan diubah menjadi selesai di database Firebase. Catatan tersebut akan dipindahkan ke bagian Completed.
