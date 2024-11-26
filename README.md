@@ -7,8 +7,6 @@ Shift: C
 
 # Penjelasan
 
-![login](image-21.png)
-
 ## Login
 Halaman awal adalah seperti berikut.
 ![alt text](image.png)
